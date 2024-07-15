@@ -2,7 +2,7 @@ GET http://localhost:8000/students
 
 ###
 
-GET http://localhost:8000/students/6695513b03d7175f793cb1c0
+GET http://localhost:8000/students/66955fda4f7b1f35697eaf44
 
 ###
 
@@ -10,21 +10,21 @@ POST http://localhost:8000/students
 Content-Type: application/json
 
 {
-  "name": "Samuel Farmer",
+  "name": "Samuel Q Farmer",
   "class": "DWA"
 }
 
 ###
 
-PATCH http://localhost:8000/students/66955fda4f7b1f35697eaf44
+PATCH http://localhost:8000/students/66957f242705eb999edaf044
 Content-Type: application/json
 
 {
   "name": "Samuel Farmer",
-  "class": "DWA"
+  "class": "DWA2"
 }
 
 ###
 
 
-DELETE http://localhost:8000/students/66955fd54f7b1f35697eaf42
+DELETE http://localhost:8000/students/66957f242705eb999edaf044
